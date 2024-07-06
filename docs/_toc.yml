@@ -3,5 +3,8 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: linear-regression/student-performance-model/notes
+parts:
+  - caption: "Linear regression"
+    chapters:
+    - file: learning-linear-regression
+    - file: student-performance-linear-regression-model
